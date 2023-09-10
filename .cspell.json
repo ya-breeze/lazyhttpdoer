@@ -1,0 +1,20 @@
+{
+  // Version of the setting file.  Always 0.2
+  "version": "0.2",
+  "language": "en",
+  "words": [
+    "deadcode",
+    "depguard",
+    "exhaustivestruct",
+    "gofumpt",
+    "golint",
+    "gopls",
+    "ifshort",
+    "interfacer",
+    "nlreturn",
+    "nosnakecase",
+    "scopelint",
+    "structcheck",
+    "varcheck"
+  ]
+}
