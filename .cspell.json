@@ -11,6 +11,7 @@
     "gopls",
     "ifshort",
     "interfacer",
+    "lazyhttpdoer",
     "nlreturn",
     "nosnakecase",
     "scopelint",

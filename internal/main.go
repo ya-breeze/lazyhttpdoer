@@ -4,12 +4,12 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/ya-breeze/player/player"
+	"github.com/ya-breeze/lazyhttpdoer"
 )
 
 func main() {
 	c := http.Client{}
-	p, err := player.New(&c, "./flows/one", "https://www.google.com", log.Default())
+	p, err := lazyhttpdoer.New(&c, "./flows/one", "https://www.google.com", log.Default())
 	if err != nil {
 		panic(err)
 	}
