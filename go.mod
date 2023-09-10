@@ -1,3 +1,3 @@
-module github.com/ya-breeze/player
+module github.com/ya-breeze/lazyhttpdoer
 
-go 1.21.0
+go 1.20.0
